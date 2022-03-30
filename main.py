@@ -200,5 +200,5 @@ if __name__ == '__main__':
     sep_filters, weights = load_sep_filters_and_weights('filter_banks/', 'weights/')
     test_imgs, test_gts = load_dataset('DS4/TI/', 'DS4/ETSTI/')
 
-    # direct_method(train_imgs, train_gts, test_imgs, test_gts, sep_filters, weights, 20000, 10000, 30)
-    # auto_context(train_imgs, train_gts, test_imgs, test_gts, sep_filters, weights, 20000, 10000, 2000, 1000, 3, 2)
+    direct_method(train_imgs, train_gts, test_imgs, test_gts, sep_filters, weights, 2000000, 1000000, 30)
+    # auto_context(train_imgs, train_gts, test_imgs, test_gts, sep_filters, weights, 200000, 100000, 20000, 10000, 30, 2)
